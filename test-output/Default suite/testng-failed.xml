@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Tests.top_Level_menu_test_Tendable">
+        <methods>
+          <include name="Home_menu_test"/>
+          <include name="testLaunch"/>
+          <include name="setDown"/>
+          <include name="afterMethod"/>
+          <include name="verify_main_Page"/>
+          <include name="test_contact_us"/>
+          <include name="Home_Our_solution_test"/>
+          <include name="Home_Our_Story_test"/>
+          <include name="Home_Why_Tendable_test"/>
+        </methods>
+      </class> <!-- Tests.top_Level_menu_test_Tendable -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
